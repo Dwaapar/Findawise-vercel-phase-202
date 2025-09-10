@@ -1,0 +1,40 @@
+{
+  "models": {
+    "deepseek-coder:6.7b": {
+      "purpose": "MASTER Code Analysis & TypeScript Expert",
+      "vram": "3.8GB",
+      "strength": "Superior import resolution, advanced TypeScript understanding"
+    },
+    "wizardcoder:latest": {
+      "purpose": "ELITE Code Generation & Type Fixing",
+      "vram": "3.8GB",
+      "strength": "Enhanced type inference, intelligent code generation"
+    },
+    "llama3.1:latest": {
+      "purpose": "ADVANCED Reasoning & Validation",
+      "vram": "4.9GB",
+      "strength": "Superior logic, complex problem solving, syntax mastery"
+    },
+    "codellama:13b-code-q6_K": {
+      "purpose": "ULTIMATE Code Review & Architecture",
+      "vram": "10GB",
+      "strength": "Enterprise-grade review, architectural insights, safety validation"
+    },
+    "nomic-embed-text:latest": {
+      "purpose": "RAG System Enhancement",
+      "vram": "274MB",
+      "strength": "Advanced knowledge retrieval, context understanding"
+    }
+  },
+  "gpuConfig": {
+    "maxConcurrentModels": 2,
+    "vramLimit": 12288,
+    "fallbackMode": "rule-based"
+  },
+  "modelPriority": [
+    "deepseek-coder:6.7b",
+    "wizardcoder:latest",
+    "llama3.1:latest",
+    "codellama:13b-code-q6_K"
+  ]
+}
