@@ -1,0 +1,53 @@
+🔥 Top 25 offenders (fix these first)
+
+These 25 files account for the majority of failures (missing module/alias, ESM extension issues, missing imports, schema/type mismatches, etc.).
+
+server/storage.ts — 457 errors — [TS2304, TS2307, TS2339, TS2353, TS2367, TS2416, TS2538, TS2551, TS2724, TS2740, TS2741, TS2769, TS2835]
+
+shared/schema.ts — 415 errors — [TS2322, TS2353, TS2835]
+
+server/routes.ts — 176 errors — [TS2307, TS2339, TS2551, TS2687, TS2717, TS2835, TS2872]
+
+server/services/growth/moneyTrafficGrowthEngine.ts — 170 errors — [TS2304, TS2307, TS2322, TS2339, TS2345, TS2353, TS2440, TS2488, TS2551, TS2554, TS2769, TS2835]
+
+server/services/ai-ml-orchestrator.ts — 122 errors — [TS18047, TS2304, TS2307, TS2322, TS2339, TS2353, TS2769, TS2835]
+
+shared/educationTables.ts — 120 errors — [TS2322]
+
+server/services/pages/dynamicPageGenerator.ts — 93 errors — [TS2304, TS2307, TS2322, TS2339, TS2353, TS2362, TS2363, TS2393, TS2559, TS2739, TS2740, TS2835]
+
+server/routes/franchiseExpansionRoutes.ts — 92 errors — [TS2304, TS2552, TS2740, TS2835]
+
+server/services/growth/engines/blogSwarmEngine.ts — 83 errors — [TS2304, TS2339, TS2552, TS2724, TS2769, TS2835]
+
+server/services/dealSniper/dealSniperEngine.ts — 79 errors — [TS2304, TS2339, TS2552, TS2769, TS2835]
+
+server/routes/contentDefenderRoutes.ts — 76 errors — [TS2304, TS2339, TS2552, TS2740, TS2769, TS2835]
+
+server/routes/offerEngineRoutes.ts — 74 errors — [TS2304, TS2307, TS2339, TS2551, TS2835]
+
+shared/aiToolsTables.ts — 64 errors — [TS2322, TS2353, TS2741]
+
+server/services/cta-renderer/ctaAssetManager.ts — 64 errors — [TS2307, TS2339, TS2393, TS2835]
+
+server/services/franchise/franchiseExpansionEngine.ts — 62 errors — [TS2304, TS2835]
+
+shared/travelTables.ts — 60 errors — [TS2322]
+
+shared/pwaTables.ts — 56 errors — [TS2322]
+
+shared/contentFeedTables.ts — 52 errors — [TS2322]
+
+shared/aiMLTables.ts — 52 errors — [TS2322]
+
+shared/offerEngineTables.ts — 50 errors — [TS2322]
+
+server/services/config/centralConfigEngine.ts — 49 errors — [TS2304, TS2322, TS2345, TS2352, TS2353, TS2551, TS2552, TS2740, TS2769, TS2835]
+
+server/services/offline-ai/offlineAiSyncEngine.ts — 49 errors — [TS2339, TS2353, TS2551, TS2561, TS2698, TS2769, TS2835]
+
+server/db/index.ts — 48 errors — [TS2304, TS2322, TS2339, TS2835]
+
+server/routes/api/enterprise.ts — 48 errors — [TS2304, TS2339]
+
+server/services/plugins/aiPluginMarketplace.ts — 48 errors — [TS2307, TS2339, TS2353, TS2769, TS2835]
