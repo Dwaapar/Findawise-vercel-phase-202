@@ -413,8 +413,24 @@ import {
   storefrontABTests
 } from "@shared/storefrontTables";
 
+// Import disaster recovery tables
+import {
+  disasterRecoveryScenarios
+} from "@shared/disasterRecoveryTables";
+
+// Import cultural emotion tables
+import {
+  culturalMappings,
+  emotionProfiles
+} from "@shared/culturalEmotionTables";
+
+// Import compliance tables
+import {
+  complianceAuditSystem as globalComplianceAuditSystem
+} from "@shared/complianceTables";
+
 import { db } from "./db";
-import { eq, and, desc, gte, lte, sql, count } from "drizzle-orm";
+import { eq, and, desc, gte, lte, sql, count, inArray, or, like } from "drizzle-orm";
 import { randomUUID } from "crypto";
 
 export interface IStorage {
