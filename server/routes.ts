@@ -1,21 +1,7 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 
-// Session type extension for TypeScript
-declare module 'express-session' {
-  interface SessionData {
-    userId?: string;
-    id?: string;
-  }
-}
-
-declare global {
-  namespace Express {
-    interface Request {
-      session?: import('express-session').SessionData;
-    }
-  }
-}
+// Session types are now defined in server/types/session.d.ts
 import { storage } from "./storage";
 import { 
   validateSession, 
